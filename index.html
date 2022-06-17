@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bon Voyage</title>
+
+  <!-- Google Fonts, bootstrap css and js scripts, and css stylesheets -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Lobster&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font awesome kit -->
+
+  <script src="https://kit.fontawesome.com/fd20e2b857.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class=" container-fluid">
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Bon Voyage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <!--For the toggle drop-down to work, you must pair the target to the matching "id" refer line 20 and 26 -->
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Blog</a>
+          </ul>
+
+      </div>
+  </nav>
+
+
+    <!-- Title -->
+    <!-- Added in bootstrap btn component-->
+    <div class="row">
+
+      <div class="col-lg-6">
+      <h1 class="big-heading">Looking to book a flight? We got you covered.</h1>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="title-image" src="images/title picture.png" alt="iphone-mockup">
+    </div>
+  </div>
+  
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="container-fluid">
+
+    <div class="row">
+    <div class="feature-box col-lg-4">
+        <i class="view fa-solid fa-money-bill-1-wave fa-4x"></i>
+    <h3 class="feature-text">Price Match</h3>
+    <p>Get instant flight deals in 60 seconds.</p>
+    </div>
+    
+      <div class="feature-box col-lg-4">
+        <i class="view fa-brands fa-searchengin fa-4x"></i>
+    <h3 class="feature-text">Easy Booking</h3>
+    <p>We do the work to find you the best package deals.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="view fas fa-solid fa-heart fa-4x"></i>
+    <h3 class="feature-text">Discounts</h3>
+    <p>Now who doesn't like discounts? For being part of our service, we'll take care of you.</p>
+  </div>
+ </div>
+</div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">"I was stressing out trying to find the best deal at the last second but Bon Voyage saved the day."</h2>
+            <img class="testimonial-image" src="images/image-testimonial-1.png" alt="pexels">
+            <em>Trevor, Brooklyn</em>
+              
+              </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">"I didn't think there would be a service that gives you discounts on top of your price match flights and stay. 10/10!"</h2>
+    <img class="testimonial-image" src="images/testimonial-image-2.png" alt="pexel-lady">
+    <em>Sharon, Kneeves</em>   
+          
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          
+      </a>
+      
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          
+      </a>
+  </div>  
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/logo 1.png" alt="business-insider-logo">
+    <img class="press-logo" src="images/logo 2.png" alt="airbnb">
+    <img class="press-logo" src="images/logo 3.png" alt="booking">
+    <img class="press-logo" src="images/logo 4.png" alt="trip-advisor">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="section-heading">How Do You Fly</h2>
+    <p>Simple and affordable price plans for your travel needs at your service</p>
+  
+    <div class="row">
+    <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="feature-text">Traveler</h3>
+   </div>
+
+   <div class="card-body">
+    <h2 class="price-text">$29.99 / mo</h2>
+    <p>Price match competitiors with 5% discount</p>
+    <p>24/7 customer support</p>
+    <p>Hotels, Suites, and Airbnb linked to your destination</p>
+    <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>      
+   </div>
+
+  </div>
+</div>
+ <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="feature-text">Executive</h3>      
+   </div>
+
+   <div class="card-body">
+    <h2 class="price-text">$39.99 / mo</h2>
+    <p>Price match competitors with 5% discount</p>
+    <p>24/7 customer support</p>
+    <p>Hotels, Suites, and Airbnb linked to your destination with 10% discount when bundled with your flight</p>
+    <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>      
+   </div>
+
+  </div>
+ </div>
+
+ <div class="pricing-column col-lg-4"> 
+    <div class="card">
+      <div class="card-header">
+        <h3 class="feature-text">VIP</h3>      
+   </div>
+   <div class="card-body">
+    <h2 class="price-text">$59.99 / mo</h2>
+    <p>Price match competitors with 10% discount</p>
+    <p>24/7 customer service</p>
+    <p>Hotels, Suites, and Airbnb linked to your destination with 15% discount when bundled with your flight</p>
+    <p>Dinner on us! Select a restaurant up to $100 dollars per flight</p>
+    <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>  
+
+   </div>
+  </div>
+ </div>
+</div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <div class="container-fluid">
+    <h3 class="big-heading">What Are You Waiting For? Book a Flight!</h3>
+    <button class="download-button btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button class="download-button btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+  </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="container-fluid">
+    <i class="social-icon fa-brands fa-facebook"></i>
+    <i class="social-icon fa-brands fa-twitter"></i>
+    <i class="social-icon fa-brands fa-instagram"></i>
+    <i class="social-icon fa-solid fa-envelope"></i>
+  </div>
+
+    <p>©2022 Copyright Bon Voyage</p>
+
+  </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
